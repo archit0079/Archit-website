@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #00BF85;
+}
+
+.navbar-brand:hover{
+    color: green;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00BF85;
+}
+
+.btn{
+    color: black;
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mid .hero{
+    position: relative;
+}
+
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.mid .hero a{
+    color: black;
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid .hero a:hover{
+    background-color: rgb(24, 122, 24);
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.about{
+    background: #000;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.about .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.about .text a{
+    color: black;
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.about .text a:hover{
+    background-color: rgb(24, 122, 24);
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+/* .discovery{
+    background: #000;
+} */
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discovery .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discovery .text p{
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.discovery .text a{
+    color: #fff;
+    background-color: #000;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.discovery .text a:hover{
+    background-color: #00BF85;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.Service{
+    background: #000;
+}
+
+.Service .one{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+}
+
+.Sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.Sign .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.Sign .text h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.Sign .text p{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+.Sign .text a{
+    color: #fff;
+    background-color: #000;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Sign .text a:hover{
+    background-color: rgb(24, 122, 24);
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
